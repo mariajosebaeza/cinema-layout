@@ -1,0 +1,77 @@
+.banner {
+	background: url("../img/banner.jpg");
+	background-size: cover;
+	background-position: center;	
+	padding:195px;	
+}
+.icono {
+	width: 80px;
+	height: 80%;
+	float: left;
+	position: relative;
+	left:27%;
+	bottom: -148px;
+}
+.textmovie {
+	padding-top: 6%;
+}
+.buscar{
+	border: 1px solid grey;
+	color: gray;
+	margin-top: 12px;
+}
+.all{
+	border: 2px #36df52 solid;
+	border-radius: 10%;
+	width: 60%;
+	height: 60%;
+	color: #36DF52;
+}
+.big {
+	color: white;
+	position: relative;
+	left: 15%;
+
+}
+.table {
+	border-top: 2px solid gray;
+	width: 100%
+} 
+.tbizq {
+	width: 40%
+}
+.cpc {
+	width: 100%;
+	height: 100%;
+}
+.img2{
+	background-color: #F2B437;
+	padding: 35px;
+}
+.fotos{
+	width:190px;
+	height:170px;
+}
+.amarillo {
+	background-color: #FAC612;
+	color:white;
+	border-radius: 5%;
+	padding: 10px;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.naranjo {
+	background-color: #C79355;
+	border-radius: 5%;
+	color:white;
+	padding: 10px;
+	display: block;
+}
+.don-t{
+	padding: 30px;
+}
+.imagen2{
+	background-color: white;
+}
+.foot{
+	background-color: rgba(211, 211, 211, 0.33)
