@@ -6,8 +6,11 @@
 	<link rel="stylesheet" type="text/css" href="css/grid-system.css">
 	<link rel="stylesheet" type="text/css" href="css/utilities.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 </head>
 <body>
+	<!--Header -->
 	<header>
 		<div class="container-fluid "> 
 			<div class="row">
@@ -18,128 +21,155 @@
 					<h5 class="text-gray textmovie"> MOVIE THEATER </h5>
 				</div>
 				<div class="col-3">
-					<h4 class="buscar"> Buscar </h4>
+					<div class="search fa fa-search">
+						<input type="text" placeholder="Buscar" name="search-field" class="search-field">
+					</div>
 				</div>
 			</div>
 		</div>
 	</header>
-
+	<!--Section, banner , icono-->
 	<section class="banner">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-8">
-					<img src="img/icono.jpg" class="icono">
+					<div class="icono"></div>
 				</div>
-				<div class="col-4 big text-gray">
-					<h1> BIG HERO 6 </h1>
-					<table class="table">
+				<div class="infobanner">
+					<h1 class="bighero">BIG HERO 6</h1>
+  				<hr class="line">
+  				<button class="botonall">
+  					All Age
+  				</button>
+  				<p class="pdon">Don Hall, Chris Williams</p>
+				<table class="cuadro">
+					<tbody>
 						<tr>
-							<td class="all "> All Age </td>
-							<td> Don Hall, Chris Williams</td>
+							<td>Ratting</td>
+							<td>: 8,5/10</td>
 						</tr>
 						<tr>
-							<td class="tbizq"> Ratting     :</td>
-							<td>  8,5/10 </td>
+							<td>Genre</td>
+							<td>:Animation,Action, Comedy </td>
 						</tr>
 						<tr>
-							<td class="tbizq"> Genre       :</td>
-							<td> Animation, Action, Comedy </td>
+							<td>Release</td>
+							<td>:7 November 2014</td>
 						</tr>
-						<tr>
-							<td class="tbizq"> Release    : </td>
-							<td> 7 November 2014 </td>
-						</tr>
-					</table>
-					<p> The special bond thah develops between plus-sized infatable robot Baymax, and prodigy Hiro Hamada, who team up whith a group of friends to form a band of high tech heroes </p>
-					<button class="amarillo">
-						<i class="fa fa-youtube-play" aria-hidden="true"></i> WATCH TRAILER </button>
-						<button class="naranjo"><i class="fa fa-ticket" aria-hidden="true"> BOOK TICKET </i> </button>
-					</div>	
-				</div>	
+					</tbody>
+				</table>
+				<p class="psipnosis">
+					The special bond that develops between plus-sized inflatable robot Baymax, and prodigy Hiro Hamada, who team up whith a group of friends to form a band of high tech heroes
+				</p>
+  				<button class="b-watch"><i class="fa fa-youtube-play youtube" aria-hidden="true"></i>  WACH TRAILER</a></button>
+  				<button class="b-tket"><i class="fa fa-ticket entrada" aria-hidden="true"></i> BOOK TICKET</a>
+  				</button>
+  				</div>	
+  			</div>
+  		</div>
+  	</section>
+ <!--Section fotos pequeñas -->
+  	<section class="fotospequeñas">
+  		<div class="container-fluid">
+  			<div class="row">
+  				<a href="#!" class="col-2 ppeli">
+  					<img src="img/imagen1.jpg" alt="lego">
+  				</a>
+  				<a href="#!" class="col-2 ppeli">
+  					<img src="img/imagen2.jpg" alt="hombrearaña">
+  				</a>
+  				<a href="#!" class="col-2 ppeli">
+  					<img src="img/imagen3.jpg" alt="ironman">
+  				</a>
+  				<a href="#!" class="col-2 ppeli">
+  					<img src="img/imagen4.jpg" alt="interestelar">
+  				</a>
+  				<a href="#!" class="col-2 ppeli">
+  					<img src="img/imagen5.jpg" alt="planetadelossimios">
+  				</a>
+  				<a href="#!" class="col-2 ppeli">
+  					<img src="img/imagen6.jpg" alt="bighero">
+  				</a>
+  			</div>
+  		</div>		
+  </section>
+<!--Section videos -->
+<section class="blackbg">
+	<div class="row">
+		<div class="col-12">
+			<div class="video"><iframe allowfullscreen="" frameborder="0" height="270" src="https://www.youtube.com/embed/zSWdZVtXT7E" width="480" class="cpc"></iframe></div>  
+		</div>
+	</div>
+</section>
+<section class="sectinfo">
+	<div class="container-fluid">
+		<div class="row don-t">
+			<div class="col-6">
+				<h3 class="text-gray mgb-3"> Don´t be late,</h3>
+				<h2 class="mgb-3"> Book your ticket now!</h2>
+				<h3 class="text-gray mgb-3"> Easy, simple & fast. </h3>
+				<button class="b-tket"><i class="fa fa-ticket entrada2" aria-hidden="true"></i> BOOK TICKET</a>
+  				</button>
+				<h5 class="dsct pequeno">Get Discount up to <b>10%</b> if you are a memeber!</h5>
 			</div>
-		</section>
-
-		<section class="img2">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-2"> 
-						<img class="fotos" src="img/imagen1.jpg"> 
-					</div>
-					<div class="col-2"> 
-						<img class="fotos" src="img/imagen2.jpg"> 
-					</div>
-					<div class="col-2"> 
-						<img class="fotos" src="img/imagen3.jpg"> 
-					</div>
-					<div class="col-2"> 	
-						<img class="fotos" src="img/imagen4.jpg"> 
-					</div>
-					<div class="col-2"> 
-						<img class="fotos" src="img/imagen5.jpg"> 
-					</div>
-					<div class="col-2"> 	
-						<img class="fotos" src="img/imagen6.jpg"> 
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="blackbg">
-			<div class="row">
-				<div class="col-12">
-					<div><iframe allowfullscreen="" frameborder="0" height="270" src="https://www.youtube.com/embed/zSWdZVtXT7E" width="480" class="cpc"></iframe></div>          
-				</div>
-			</div>
-		</section>
-		<section>
-			<div class="container-fluid">
-				<div class="row don-t">
-					<div class="col-6">
-						<h3 class="text-gray mgb-3"> Don´t be late,</h3>
-						<h2 class="mgb-3"> Book your ticket now!</h2>
-						<h3 class="text-gray mgb-3"> Easy, simple & fast. </h3>
-						<button class="naranjo mgb-3"><i class="fa fa-ticket" aria-hidden="true"></i>BOOK TICKET</button>  				
-						<h5 class="dsct pequeno">Get Discount up to <b>10%</b> if you are a memeber!</h5>
-					</div>	
-					<div class="col-6">
-						<h3 class="text-gray mgb-3"> News </h3>
-						<h5> Lorem Ipsum Dolor Sit Amet </h5>
-						<p class="text-gray maspequeno">Nov 11 2014 <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni unde aperiam quisquam doloribus totam ullam nam, assumenda magnam</p>
-						<div class="divisoria mtop2"> </div>
-						<h5>Lorem Ipsum Dolor Sit Amet</h5>
-						<p class="text-gray maspequeno">Nov 11 2014 <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni unde aperiam quisquam doloribus totam ullam nam, assumenda magnam</p>
-						<div class="divisoria mtop2"></div>
-						<a href="#" class="dsct link pequeno"><b>MORE</b></a>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="imagen2">
-			<div class="container-fluid">
-				<div class="col-3">
-					<div class="fot2"><img src="img/imagen6.jpg" class="cpc"></div></div>
-				<div class="col-3">
-					<div class="fot2"><img src="img/imagen7.jpg" class="cpc"></div></div>
-				<div class="col-3">
-					<div class="fot2"><img src="img/imagen8.jpg" class="cpc"></div></div>
-				<div class="col-3">
-					<div class="fot2"><img src="img/imagen9.jpg" class="cpc"></div></div>
+			<div class="col-6">
+				<h3 class="text-gray mgb-3"> News </h3>
+				<h5> 
+					Lorem Ipsum Dolor Sit Amet 
+				</h5>
+				<p class="text-gray maspequeno">
+					Nov 11 2014 <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni unde aperiam quisquam doloribus totam ullam nam, assumenda magnam
+				</p>
+				<hr><br>
+				<h5>
+					Lorem Ipsum Dolor Sit Amet
+				</h5>
+				<p class="text-gray maspequeno">
+					Nov 11 2014 <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni unde aperiam quisquam doloribus totam ullam nam, assumenda magnam
+				</p>
+				<hr><br>
+				<a href="#" class="linkmore"><b>MORE</b></a>
 			</div>
 		</div>
-	</section>
-
-	<footer class="foot">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-12 mtop2">
-					<h4 class="text-gray">Disclaimer.</h4>
-					<p class="pequeno text-gray">this is freebles and not an official website, i have no intention of disclose any movie, brand, news.<br class="pequeno text-gray">My goal here is to train or excercise my skill and share this freebies.</p>
-					<p class="pequeno text-gray">created by Fikristudio in <b>Indonesia</b></p>
-					<p class="maspequeno text-gray">Dribble.com/bagus_fri<br>Be.net/bagusfriki<br>www.frikistudio.com</p>  	
-				</div>
+	</div>
+</section>
+<section class="fotosmedianas">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-3">
+				<div class="imgmediana"><img src="img/imagen6.jpg" class="cpc"></div>
+			</div>
+			<div class="col-3">
+				<div class="imgmediana"><img src="img/imagen7.jpg" class="cpc"></div>
+			</div>
+			<div class="col-3">
+				<div class="imgmediana"><img src="img/imagen8.jpg" class="cpc"></div>
+			</div>
+			<div class="col-3">
+				<div class="imgmediana"><img src="img/imagen9.jpg" class="cpc"></div>
+			</div>		
+		</div>	
+	</div>	
+</section>
+<footer>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-12 mtop2">
+				<h4 class="text-gray">
+					Disclaimer.
+				</h4>
+				<p class="pequeno text-gray">
+					this is freebles and not an official website, i have no intention of disclose any movie, brand, news.<br class="pequeno text-gray">My goal here is to train or excercise my skill and share this freebies.
+				</p>
+				<p class="pequeno text-gray">
+					created by Fikristudio in <b>Indonesia</b>
+				</p>
+				<p class="maspequeno text-gray">
+					Dribble.com/bagus_fri<br>Be.net/bagusfriki<br>www.frikistudio.com
+				</p>  
 			</div>
 		</div>
-	</footer>
+	</div>
+</footer>
 </body>
 </html>

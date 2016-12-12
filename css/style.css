@@ -1,77 +1,120 @@
+.body{
+	font-family: Arial;
+}
+/*header style */ 
+.textmovie {
+	padding-top: 6%;
+}
+.buscar{
+	margin-top: 7%;
+}
+
+/* Banner style */
 .banner {
 	background: url("../img/banner.jpg");
 	background-size: cover;
 	background-position: center;	
 	padding:195px;	
+	background-color: #7A7A7A;
 }
 .icono {
 	width: 80px;
 	height: 80%;
 	float: left;
-	position: relative;
+	position: absolute;
 	left:27%;
-	bottom: -148px;
+	bottom: -160px;
 }
-.textmovie {
-	padding-top: 6%;
+.bighero{
+	font-size: 35px;
+	color: #B5B5B5;
 }
-.buscar{
-	border: 1px solid grey;
-	color: gray;
-	margin-top: 12px;
+
+.line{
+	border: 1px solid #B5B5B5;
+	width: 55%;
 }
-.all{
-	border: 2px #36df52 solid;
-	border-radius: 10%;
-	width: 60%;
-	height: 60%;
-	color: #36DF52;
+
+.botonall{
+	color: #4EE83A;
+	border: 1px solid green;
+	border-radius: 5px;
+	padding:10px;
+	background-color: #7A7A7A;
 }
-.big {
-	color: white;
-	position: relative;
-	left: 15%;
+
+.infobanner{
+	margin-left: 70%;
+	color:#B5B5B5;
 
 }
-.table {
-	border-top: 2px solid gray;
-	width: 100%
-} 
-.tbizq {
-	width: 40%
+.psipnosis{
+	margin-top: 5%;
 }
-.cpc {
+.b-watch{
+	background-color: #DFB636;
+	border-radius: 5px;
+	margin-top: 20px;
+	height: 50px;
+	width:200px;
+	color:white;
+	font-size: 18px;
+}
+.b-tket{
+	background-color: #C79355;
+	border-radius: 5px;
+	margin-top: 15px;
+	height: 50px;
+	width:200px;
+	color:white;
+	font-size: 18px;
+}
+
+/* section fotos peliculas */
+.fotospequeñas{
+	background-color: #FACC2E;
+	width: 100%;
+}
+.ppeli img{
+    width:180px;
+    height:280px;
+    float:left;
+    margin:20px 20px 20px 20px;
+}
+
+a{
+	display: block;
+}
+
+/*section video style */
+.cpc{
 	width: 100%;
 	height: 100%;
 }
-.img2{
-	background-color: #F2B437;
-	padding: 35px;
+/* Section info style*/ 
+.sectinfo{
+	padding-top: 3%;
+	padding-bottom: 3%;
 }
-.fotos{
-	width:190px;
-	height:170px;
+/* Section info style */
+.entrada2{
+	padding-bottom: 3%;
 }
-.amarillo {
-	background-color: #FAC612;
-	color:white;
-	border-radius: 5%;
-	padding: 10px;
-	margin-top: 5%;
-	margin-bottom: 5%;
+.linkmore{
+	 text-decoration:none;  
+	 color:#C79355;
 }
-.naranjo {
-	background-color: #C79355;
-	border-radius: 5%;
-	color:white;
-	padding: 10px;
-	display: block;
+
+/*section imagenes medianas*/
+.imgmediana{
+	width:195px;
+    height:180px;
+    float:left;
+    margin:20px 20px 20px 20px;
 }
-.don-t{
-	padding: 30px;
+/* Footer style */ 
+footer{
+	background-color: #EDEAE9;
+	padding-top: 3%;
+	padding-bottom:3%;
 }
-.imagen2{
-	background-color: white;
-}
-.foot{
-	background-color: rgba(211, 211, 211, 0.33)
